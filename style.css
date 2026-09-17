@@ -1,0 +1,460 @@
+ .cards{
+            width: 500px;
+            height: 300px;
+            display: flex;
+            margin-top: 50px;
+            margin-left: 60px;
+        }
+        .title{
+            color:brown;
+            margin-top: 30px;
+            margin-left: 60px;
+           h3{
+               color:black;
+               font-size: 30px;
+           }
+        }
+        .card1{
+            margin-left: 5px;
+            width: 300px;
+            height: 350px;
+            border-radius: 10px;
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+            cursor:pointer;
+            .img{
+                width: 200px;
+                height:200px; 
+            }
+            .img img{
+                width:200px;
+                height:200px;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+            .icon{
+                width:60px;
+                background-color:brown;
+                position:relative;
+                top: -200px;
+                margin-left: 5px;
+                border-radius: 20px;
+                padding-left:10px;
+                padding-top:2px;
+                color:white;
+                font-size: 14px;
+            }
+            .like{
+                width: 20px;
+                height:20px;
+                background-color: white;
+                border-radius: 50%;
+                position: relative;
+                top: -220px;
+                left: 170px;
+                padding: 3px;
+                padding-top:4px;
+                color:gray;
+                cursor:pointer;
+            }
+            .rating p{
+                margin-left: 5px;
+                i{
+                    color: rgb(218, 164, 15);
+                }
+                color:gray;
+                font-size: 10px;
+            }
+            p{  
+                margin-left: 5px;
+                font-size: 13px;
+                font-weight: 800;
+            }
+            .price{
+                display: flex;
+                align-items: center;
+                p{
+                    color:brown;
+                }
+                .delete{
+                    color:gray;
+                    font-size: 10px;
+                    margin-left: 5px;
+                }
+                .cart{
+                    margin-left: 60px;
+                    width: 20px;
+                    height:20px;
+                   background-color: white;
+                   border-radius: 50%;
+                   border: 1px solid brown;
+                   padding:3px;
+                   padding-top: 4px;
+                   color:brown;
+                }
+            }
+             button{
+                    margin-left: 2px;
+                    padding: 3px 70px;
+                    border-radius: 20px;
+                    background-color: brown;
+                    border: 1px solid brown;
+                    color:white;
+                    cursor:pointer;
+                }
+        }
+        .card2{
+            margin-left: 30px;
+            width: 300px;
+            height: 350px;
+            border: 1px solid white;
+            border-radius: 10px;
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+            cursor:pointer;
+            .img{
+                width: 200px;
+                height:200px; 
+            }
+            .img img{
+                width:200px;
+                height:200px;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+            .icon{
+                width:60px;
+                background-color:brown;
+                position:relative;
+                top: -200px;
+                margin-left: 5px;
+                border-radius: 20px;
+                padding-left:10px;
+                padding-top:2px;
+                color:white;
+                font-size: 14px;
+            }
+            .like{
+                width: 20px;
+                height:20px;
+                background-color: white;
+                border-radius: 50%;
+                position: relative;
+                top: -220px;
+                left: 170px;
+                padding: 3px;
+                padding-top:4px;
+                color:gray;
+                cursor:pointer;
+            }
+            .rating p{
+                margin-left: 5px;
+                i{
+                    color: rgb(218, 164, 15);
+                }
+                color:gray;
+                font-size: 10px;
+            }
+            p{  
+                margin-left: 5px;
+                font-size: 13px;
+                font-weight: 800;
+            }
+            .price{
+                display: flex;
+                align-items: center;
+                p{
+                    color:brown;
+                }
+                .delete{
+                    color:gray;
+                    font-size: 10px;
+                    margin-left: 5px;
+                }
+                .cart{
+                    margin-left: 60px;
+                    width: 20px;
+                    height:20px;
+                   background-color: white;
+                   border-radius: 50%;
+                   border: 1px solid brown;
+                   padding:3px;
+                   padding-top: 4px;
+                   color:brown;
+                }
+            }
+             button{
+                    margin-left: 2px;
+                    padding: 3px 70px;
+                    border-radius: 20px;
+                    background-color: brown;
+                    border: 1px solid brown;
+                    color:white;
+                    cursor:pointer;
+                }
+        }
+        .card3{
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+            margin-left: 30px;
+            width: 300px;
+            height: 350px;
+            border: 1px solid white;
+            border-radius: 10px;
+            cursor: pointer;
+            .img{
+                width: 200px;
+                height:200px; 
+            }
+            .img img{
+                width:200px;
+                height:200px;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+            .icon{
+                width:60px;
+                background-color:brown;
+                position:relative;
+                top: -200px;
+                margin-left: 5px;
+                border-radius: 20px;
+                padding-left:10px;
+                padding-top:2px;
+                color:white;
+                font-size: 14px;
+            }
+            .like{
+                width: 20px;
+                height:20px;
+                background-color: white;
+                border-radius: 50%;
+                position: relative;
+                top: -220px;
+                left: 170px;
+                padding: 3px;
+                padding-top:4px;
+                color:gray;
+                cursor:pointer;
+            }
+            .rating p{
+                margin-left: 5px;
+                i{
+                    color: rgb(218, 164, 15);
+                }
+                color:gray;
+                font-size: 10px;
+            }
+            p{  
+                margin-left: 5px;
+                font-size: 13px;
+                font-weight: 800;
+            }
+            .price{
+                display: flex;
+                align-items: center;
+                p{
+                    color:brown;
+                }
+                .delete{
+                    color:gray;
+                    font-size: 10px;
+                    margin-left: 5px;
+                }
+                .cart{
+                    margin-left: 60px;
+                    width: 20px;
+                    height:20px;
+                   background-color: white;
+                   border-radius: 50%;
+                   border: 1px solid brown;
+                   padding:3px;
+                   padding-top: 4px;
+                   color:brown;
+                }
+            }
+             button{
+                    margin-left: 2px;
+                    padding: 3px 70px;
+                    border-radius: 20px;
+                    background-color: brown;
+                    border: 1px solid brown;
+                    color:white;
+                    cursor: pointer;
+                }
+        }
+        .card4{
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+            margin-left: 30px;
+            width: 300px;
+            height: 350px;
+            border: 1px solid white;
+            border-radius: 10px;
+            cursor:pointer;
+            .img{
+                width: 200px;
+                height:200px; 
+            }
+            .img img{
+                width:200px;
+                height:200px;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+            .icon{
+                width:60px;
+                background-color:brown;
+                position:relative;
+                top: -200px;
+                margin-left: 5px;
+                border-radius: 20px;
+                padding-left:10px;
+                padding-top:2px;
+                color:white;
+                font-size: 14px;
+            }
+            .like{
+                width: 20px;
+                height:20px;
+                background-color: white;
+                border-radius: 50%;
+                position: relative;
+                top: -220px;
+                left: 170px;
+                padding: 3px;
+                padding-top:4px;
+                color:gray;
+                cursor:pointer;
+            }
+            .rating p{
+                margin-left: 5px;
+                i{
+                    color: rgb(218, 164, 15);
+                }
+                color:gray;
+                font-size: 10px;
+            }
+            p{  
+                margin-left: 5px;
+                font-size: 13px;
+                font-weight: 800;
+            }
+            .price{
+                display: flex;
+                align-items: center;
+                p{
+                    color:brown;
+                }
+                .delete{
+                    color:gray;
+                    font-size: 10px;
+                    margin-left: 5px;
+                }
+                .cart{
+                    margin-left: 60px;
+                    width: 20px;
+                    height:20px;
+                   background-color: white;
+                   border-radius: 50%;
+                   border: 1px solid brown;
+                   padding:3px;
+                   padding-top: 4px;
+                   color:brown;
+                }
+            }
+             button{
+                    margin-left: 2px;
+                    padding: 3px 70px;
+                    border-radius: 20px;
+                    background-color: brown;
+                    border: 1px solid brown;
+                    color:white;
+                    cursor:pointer;
+                }
+        }
+        .card5{
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+            margin-left: 30px;
+            width: 300px;
+            height: 350px;
+            border: 1px solid white;
+            border-radius: 10px;
+            cursor: pointer;
+            .img{
+                width: 200px;
+                height:200px; 
+            }
+            .img img{
+                width:200px;
+                height:200px;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+            .icon{
+                width:60px;
+                background-color:brown;
+                position:relative;
+                top: -200px;
+                margin-left: 5px;
+                border-radius: 20px;
+                padding-left:10px;
+                padding-top:2px;
+                color:white;
+                font-size: 14px;
+            }
+            .like{
+                width: 20px;
+                height:20px;
+                background-color: white;
+                border-radius: 50%;
+                position: relative;
+                top: -220px;
+                left: 170px;
+                padding: 3px;
+                padding-top:4px;
+                color:gray;
+                cursor:pointer;
+            }
+            .rating p{
+                margin-left: 5px;
+                i{
+                    color: rgb(197, 148, 14);
+                }
+                color:gray;
+                font-size: 10px;
+            }
+            p{  
+                margin-left: 5px;
+                font-size: 13px;
+                font-weight: 800;
+            }
+            .price{
+                display: flex;
+                align-items: center;
+                p{
+                    color:brown;
+                }
+                .delete{
+                    color:gray;
+                    font-size: 10px;
+                    margin-left: 5px;
+                }
+                .cart{
+                    margin-left: 60px;
+                    width: 20px;
+                    height:20px;
+                   background-color: white;
+                   border-radius: 50%;
+                   border: 1px solid brown;
+                   padding:3px;
+                   padding-top: 4px;
+                   color:brown;
+                }
+            }
+             button{
+                    margin-left: 2px;
+                    padding: 3px 70px;
+                    border-radius: 20px;
+                    background-color: brown;
+                    border: 1px solid brown;
+                    color:white;
+                    cursor:pointer;
+                }
+        }
